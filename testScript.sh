@@ -2,6 +2,6 @@
 echo "This is an example of a script"
 echo "That is running in a build step"
 echo "This is a param $PASSED"
-echo "This should trigger the build"
+echo "This should trigger the build for me"
 NUM=$(($FIRSTNUMBER + $SECONDNUMBER))
 echo "$NUM"
