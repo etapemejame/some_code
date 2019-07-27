@@ -1,0 +1,13 @@
+<project>
+  <target name="junit" depends="tjar">
+      <junit printsummary="yes">
+      <classpath refid="classpath" />
+      <classpath location="test" />
+      <test name="hellotest" haltonfailure="no" todir="test/results">
+      <formatter type="plain" />
+      <formatter type="xml" />
+      </test>
+      </junit>
+   </target>   
+ 
+</project>
